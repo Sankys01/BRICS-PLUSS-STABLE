@@ -1,0 +1,20 @@
+# Ignorar claves privadas
+*.json
+!id.json.example
+!vote-account-keypair.json.example
+
+# Ignorar logs
+*.log
+/logs/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar backups
+*~
+*.bak
+
+# Ignorar configuraciones locales
+.env
+config.json
